@@ -5,7 +5,7 @@ There are `m` point robots whose goal is to track `n` targets. More specifically
 ## Method
 The tracking method used is a [potential field control](https://link.springer.com/article/10.1023/A:1015256330750), where the robots are repulsed by each other and attracted to targets. 
 
-## General Setup
+## Setup
 Python 2.7.13 was chosen as the programming language for this assignment. In addition to Python, the `numpy` and `matplotlib` packages are also required. These can be installed, if not already, via the following command:
 ```python
 pip install -r requirements.txt
